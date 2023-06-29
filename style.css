@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/alarm-clock');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.timer-wrapper {
+    display: flex;
+    color: #dc3545;
+    font-size: 13vw;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'alarm clock', sans-serif;
+}
+
+/* button */
+
+.button-wrapper button {
+    margin: 0 25px;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-wrapper button:active {
+    opacity: .3;
+}
+
+.start {
+    background: #007bff;
+}
+
+.stop {
+    background: #dc3545;
+}
+
+.button-wrapper .reset {
+    background: #ffc107;
+    color: black;
+}
